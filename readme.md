@@ -30,13 +30,13 @@ The semantic similarity score is 4.338752180337906
 The explainability can be generated through sts_explainability module 
 ```
 
-##Dependencies
+## Dependencies
 create virtual environment of Python 3.9 version and install dependencies from requirements.txt to reproduce
 
-##Contact
+## Contact
 Contact author for any queries to reproduce the results
 
-##References:
+## References:
 <li>Hugging face datasets</li>
 <li>Efficient Estimation of Word Representation in vector space</li>
 <li>https://github.com/yg211/explainable-metrics</li>
