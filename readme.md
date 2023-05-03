@@ -6,6 +6,7 @@ The quality of the sentence embeddings is validated against validation data by a
 
 ## Project files
 <li>run_similarity_score_en.py consists of main driver code to generate STS scores for mono lingual sentences </li>
+<li>run_similarity_score_en_es.py consists of main driver code to generate STS scores for cross lingual sentences </li>
 <li>Data folder has the raw data, cleaned data and pretrained model files</li>
 <li>Experiments folder have reproducible training source code for various approaches experimented:
 <ul>
@@ -30,6 +31,14 @@ Enter your second sentence:     Swaroop is leaving to college now
 Generating the similarity score......
 The semantic similarity score is 4.338752180337906
 The explainability can be generated through sts_explainability module 
+```
+
+```
+> python run_similarity_score_en_es.py
+Enter your english sentence:	A man is playing a flute.
+Enter your spanish sentence:	Un hombre está tocando una flauta de bambú.
+Generating the cross lingual similarity score......
+The predicted semantic similarity score is  2.534799337387085
 ```
 
 ## Dependencies
