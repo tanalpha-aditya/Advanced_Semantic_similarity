@@ -17,7 +17,7 @@ The quality of the sentence embeddings is validated against validation data by a
     <li>Siamese_BiLSTM_w2v.ipynb: The pretrained word2vec embeddings are fed as input layers to bi-directional lstm to generate similarity scores</li>
     <li>Cross_Lingual_Training.ipynb: This notebook consists of code to preprocess non english text and run through various model architectures to generate cross lingual semantic similarity scores</li>
     <li>mt_encoder_decoder_model.ipynb: We build a MT (Machine Translation) encoder - decoder model for spanish - english. we translate english sentences to spanish to generate spanish sentences. We then use cosine similarity.</li>
-    <li>pretrained-mt-model.ipynb: We use a prebuilt MT (Machine Translation) model (Helsinki-NLP/opus-mt-en-es) for spanish - english. we translate english sentences to spanish to generate spanish sentences. We then use cosine similarity.</li>
+    <li>pretrained-mt-model.ipynb: We use a pretrained MT (Machine Translation) model (Helsinki-NLP/opus-mt-en-es) for spanish - english. we translate english sentences to spanish to generate spanish sentences. We then use cosine similarity.</li>
     
 </ul>
 </li>
