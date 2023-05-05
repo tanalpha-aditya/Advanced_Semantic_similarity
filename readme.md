@@ -42,9 +42,10 @@ The predicted semantic similarity score is  2.534799337387085
 ```
 
 ## Dependencies
-create virtual environment of Python 3.9 version and install dependencies from requirements.txt to reproduce
-Download the word2vec pretrained model from google drive following link and place it inside ../data folder before running run_similarity_score_en.py
-https://drive.google.com/file/d/1CbmyRiqF3x7K50jf7gzI7EF5ZcAmiti7/view?usp=share_link
+<li>create virtual environment of Python 3.9 version and install dependencies from requirements.txt to reproduce</li>
+<li>Download entire data folder and place it inside root directory of project (semantic_similarity) https://drive.google.com/drive/folders/1tQVA6H1TOmc1hnVodJQA3YAdirZVQwdG?usp=sharing</li>
+<li>Download the word2vec pretrained model from google drive following link and place it inside ../data folder before running run_similarity_score_en.py
+https://drive.google.com/file/d/1CbmyRiqF3x7K50jf7gzI7EF5ZcAmiti7/view?usp=share_link </li>
 
 ## Contact
 Contact author for any queries to reproduce the results
