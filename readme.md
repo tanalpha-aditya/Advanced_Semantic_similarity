@@ -16,6 +16,9 @@ The quality of the sentence embeddings is validated against validation data by a
     <li>BERT.ipynb: SOTA The pretrained SBERT embeddings which are fine tuned on STS dataset are used for generating sentence embeddings</li>
     <li>Siamese_BiLSTM_w2v.ipynb: The pretrained word2vec embeddings are fed as input layers to bi-directional lstm to generate similarity scores</li>
     <li>Cross_Lingual_Training.ipynb: This notebook consists of code to preprocess non english text and run through various model architectures to generate cross lingual semantic similarity scores</li>
+    <li>mt_encoder_decoder_model.ipynb: We build a MT (Machine Translation) encoder - decoder model for spanish - english. we translate english sentences to spanish to generate spanish sentences. We then use cosine similarity.</li>
+    <li>pretrained-mt-model.ipynb: We use a prebuilt MT (Machine Translation) model (Helsinki-NLP/opus-mt-en-es) for spanish - english. we translate english sentences to spanish to generate spanish sentences. We then use cosine similarity.</li>
+    
 </ul>
 </li>
 <li>sts_explainability.ipynb: This module helps in explaining which words or set of words are playing major role in the STS score for a given sentence pair through SHAP values</li>
