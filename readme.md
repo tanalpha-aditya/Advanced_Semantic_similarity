@@ -26,10 +26,10 @@ When the `run_similarity_score_en.py` file is run, it uses the command-line argu
 Make sure you are in the src directory after unzipping
 ```
 > python run_similarity_score_en.py
-Enter your first sentence:      Where is Swaroop going
-Enter your second sentence:     Swaroop is leaving to college now
+Enter your first sentence:      A man is cutting up a cucumber.
+Enter your second sentence:     A man is slicing a cucumber.
 Generating the similarity score......
-The semantic similarity score is 4.338752180337906
+The semantic similarity score is 4.241636693477631
 The explainability can be generated through sts_explainability module 
 ```
 

@@ -60,8 +60,8 @@ class STS_Score:
 
 if __name__ == "__main__":
     """Sample input sentences to try:
-    input1: Where is Swaroop going
-    input2: Swaroop is leaving to college now
+    input1: A man is cutting up a cucumber.
+    input2: A man is slicing a cucumber.
     """
     input1 = input("Enter your first sentence:\t")
     input2 = input("Enter your second sentence:\t")
